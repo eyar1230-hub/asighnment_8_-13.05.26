@@ -89,8 +89,7 @@ UPDATE author
 set name = 'Jane Doe-Smith'
 WHERE id = 'A1'
 ;
---2 rows have changed
-	--but 1 row as efected in the code
-	-- Result: query executed successfully. Took 0ms, 1 rows affected
+----2 rows have changed in the bad table (or more if there are more roes)
+	--how ever in the 3NF table we see a change in only one table at one row no matter how many rows we have
 
 	
